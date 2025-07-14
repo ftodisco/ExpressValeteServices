@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, Minus, ShoppingCart, Phone, MapPin } from 'lucide-react';
-import './App.css';
+
 
 const ExpressValetApp = () => {
   const [currentView, setCurrentView] = useState('home');
